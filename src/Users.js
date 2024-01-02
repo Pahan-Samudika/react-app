@@ -25,7 +25,7 @@ const Users = () => {
     }
 
     const addUser = (data) => {
-        setSubmitted(true);
+        setSubmitted(true); 
 
         const payload = {
             id: data.id,
